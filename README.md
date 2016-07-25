@@ -19,6 +19,16 @@ I plan to update this to be more of a react component that wraps around your pro
 
 You can check out a demo on [Codepen](https://codepen.io/austinnnnnnn/full/WwwmKP/). This includes some extra styles it make it look a little cool.
 
+If you want to try this repo out on your local machine:
+
+`npm install -g quik`
+
+`git clone git@github.com:austinsamsel/vertical-rhythm-css.git`
+
+`cd vertical-rhythm-css`
+
+`quik`
+
 ### Notes
 
 Whenever possible, we're only creating spacing at the bottom of elements (with padding and margins) to keep the spacing flowing unidirectionally.
