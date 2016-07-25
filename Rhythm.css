@@ -1,0 +1,70 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+
+body {
+  /* baseline grid is created by background */
+  background: linear-gradient(#ffb0ee, #FFF 1px);
+  background-size: 24px 24px;
+
+  /* #2 setting up baseline font and line-height */
+  font-size:16px;
+  line-height:1.5;
+}
+
+* {
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 0px;
+  /* some webkit stuff */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 24px;
+}
+
+/* typescale w/ pixel-based fonts based on baseline */
+h1 { font-size: 60px; line-height:60px; }
+h2 { font-size: 48px; line-height:48px; }
+h3 { font-size: 36px; line-height:36px; }
+h4 { font-size: 24px; line-height:24px; }
+
+h1, h2, h3, h4 {
+  margin-top:0px;
+  margin-bottom:24px;
+}
+
+p, blockquote, span, li {
+  margin-bottom:24px;
+}
+
+blockquote {
+  /* style */
+  border-left-width:12px;
+  border-left-style: solid;
+  padding-left: 24px;
+  margin-left: 24px;
+  font-size:24px;
+  line-height:36px;
+}
+
+img{
+  display:block; /* removes an extra 6-7 px of space at bottom of img element */
+}
+
+li{
+  margin-bottom:12px;
+}
+
+br{
+  /* half height of baseline to be used as an offset */
+  content: '';
+  display:block;
+  height:12px;
+  margin-bottom:24px;
+}
+
+button{
+  margin-bottom:24px;
+  padding:18px 24px;
+  height:72px;
+}

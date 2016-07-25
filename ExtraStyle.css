@@ -1,0 +1,74 @@
+/* html, body, div, article, section, main, footer, header, form, fieldset, pre,
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="text"], input[type="tel"],
+input[type="email"], input[type="url"], input[type="password"], .border-box { box-sizing: border-box; } */
+
+body {
+  border:15px solid #24ffb0;
+  font-family: 'avenir next',avenir,'Khula',sans-serif;
+}
+
+.wrap{
+  max-width:960px;
+  margin: 3rem auto;
+  padding: 1rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.main{
+  width:70%;
+  padding-right:48px;
+}
+
+.sidebar{
+  width:30%;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing:-0.08rem;
+  color: orchid;
+  font-weight:700;
+}
+
+p, blockquote, span, li {
+  color:#333;
+}
+
+blockquote {
+  border-left-color: peachpuff;
+}
+
+img {
+  max-height:480px;
+  max-width:100%;
+}
+
+button{
+  background-color:plum;
+  border:none;
+  text-transform:uppercase;
+  letter-spacing:0.1rem;
+  color:#fff;
+  font-weight:bold;
+}
+
+.box {
+  padding:24px;
+  margin-bottom:24px;
+  background:rgba(0,255,255,0.5);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+a {
+  text-decoration:none;
+  color: lightcoral;
+  transition:1s;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+  border-bottom-color:transparent;
+}
+a:hover, a:focus{
+  border-bottom-color:lightcoral;
+}
