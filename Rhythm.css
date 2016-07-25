@@ -22,7 +22,7 @@ body {
   -webkit-margin-after: 24px;
 }
 
-/* typescale w/ pixel-based fonts based on baseline */
+/* Optional: typescale w/ pixel-based fonts based on baseline */
 h1 { font-size: 60px; line-height:60px; }
 h2 { font-size: 48px; line-height:48px; }
 h3 { font-size: 36px; line-height:36px; }
