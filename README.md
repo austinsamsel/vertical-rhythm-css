@@ -2,6 +2,8 @@
 
 This is a CSS drop in to have a better vertical rhythm in your projects from the start. In conventional CSS modeling and browser rendering there's no real concept for vertical rhythm and a bunch of browser quirks that throw things off.
 
+There's no javascript adjustments which would enforce strict vertical rhythm. For example, images and headers that span more than one line can shift the rhythm.
+
 Having better vertical rhythm from the start means:
 
 * Better designs in the browser that make content more readable and accessible.
